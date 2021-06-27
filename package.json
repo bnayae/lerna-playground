@@ -1,7 +1,18 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "dev":"lerna run dev",
+    "start":"lerna run start",
+    "start:a":"lerna run start --scope=[app-a]",
+    "test":"lerna run test",
+    "diff": "lerna diff",
+    "new-version":"lerna version --conventional-commit --yes",
+    "lerna:update": "lernaupdate",
+    "deploy:production": "now && now alias"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "lerna-update-wizard": "^0.17.8"
   }
 }
