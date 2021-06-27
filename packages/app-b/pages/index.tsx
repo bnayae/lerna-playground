@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>App A</title>
+        <title>App B</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          App A
-      </h1>
+          App B
+        </h1>
       </main>
     </div>
   )

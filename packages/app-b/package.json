@@ -1,5 +1,5 @@
 {
-  "name": "app-b",
+  "name": "@lerna-playground/app-b",
   "version": "0.1.0",
   "private": true,
   "scripts": {

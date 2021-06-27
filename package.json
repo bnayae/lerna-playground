@@ -3,8 +3,9 @@
   "private": true,
   "scripts": {
     "dev":"lerna run dev",
+    "dev:a":"lerna run dev --scope=@lerna-playground/app-a",
+    "dev:b":"lerna run dev --scope=@lerna-playground/app-b",
     "start":"lerna run start",
-    "start:a":"lerna run start --scope=[app-a]",
     "test":"lerna run test",
     "diff": "lerna diff",
     "new-version":"lerna version --conventional-commit --yes",
